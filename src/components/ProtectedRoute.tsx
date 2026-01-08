@@ -15,18 +15,21 @@ export default function ProtectedRoute({
 
   useEffect(() => {
     if (!isAuthenticated) {
-      // Redirect to sign-in page instead of auto-popup
       router.push("/signin");
     }
   }, [isAuthenticated, router]);
 
-  // Show loading while checking auth
   if (!isAuthenticated) {
     return (
-      <div className="min-h-screen bg-white flex items-center justify-center">
-        <div className="text-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-black mx-auto mb-4"></div>
-          <p className="text-gray-600">Checking authentication...</p>
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-center animate-fade-in">
+          <div className="w-16 h-16 rounded-2xl bg-[var(--accent)] flex items-center justify-center mx-auto mb-6 animate-pulse-glow">
+            <span className="text-black font-bold text-2xl">F</span>
+          </div>
+          <div className="spinner mx-auto mb-4"></div>
+          <p className="text-[var(--text-secondary)]">
+            Checking authentication...
+          </p>
         </div>
       </div>
     );

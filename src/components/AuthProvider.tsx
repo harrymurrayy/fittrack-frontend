@@ -13,13 +13,9 @@ export default function AuthProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     const initializeMsal = async () => {
       try {
-        // Initialize MSAL instance
         await msalInstance.initialize();
-
-        // Handle redirect promise after initialization
         await msalInstance.handleRedirectPromise();
 
-        // Add event callback
         msalInstance.addEventCallback((event) => {
           if (event.eventType === EventType.LOGIN_SUCCESS) {
             console.log("Login successful!");
@@ -29,18 +25,23 @@ export default function AuthProvider({ children }: { children: ReactNode }) {
         setIsInitialized(true);
       } catch (error) {
         console.error("MSAL initialization error:", error);
-        setIsInitialized(true); // Still set to true to prevent infinite loading
+        setIsInitialized(true);
       }
     };
 
     initializeMsal();
   }, []);
 
-  // Show loading while initializing
   if (!isInitialized) {
     return (
-      <div className="min-h-screen bg-white flex items-center justify-center">
-        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-black"></div>
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-center animate-fade-in">
+          <div className="w-16 h-16 rounded-2xl bg-[var(--accent)] flex items-center justify-center mx-auto mb-6 animate-pulse-glow">
+            <span className="text-black font-bold text-2xl">F</span>
+          </div>
+          <div className="spinner mx-auto mb-4"></div>
+          <p className="text-[var(--text-secondary)]">Loading FitTrack...</p>
+        </div>
       </div>
     );
   }

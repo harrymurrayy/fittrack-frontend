@@ -58,133 +58,177 @@ export default function PhotoGallery({
 
   return (
     <>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+      {/* Photo Grid */}
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 stagger-children">
         {sortedPhotos.map((photo) => (
-          <div
+          <button
             key={photo.id}
-            className="bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition-shadow cursor-pointer"
             onClick={() => setSelectedPhoto(photo)}
+            className="group relative aspect-square rounded-xl overflow-hidden bg-[var(--bg-tertiary)] card-glow focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)]"
           >
-            {/* Photo */}
-            <div className="aspect-square bg-gray-100 relative">
-              <img
-                src={photo.blobUrl}
-                alt={`Progress photo from ${formatDate(photo.takenAt)}`}
-                className="w-full h-full object-cover"
-              />
-            </div>
+            {/* Image */}
+            <img
+              src={photo.blobUrl}
+              alt={`Progress photo from ${formatDate(photo.takenAt)}`}
+              className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+            />
 
-            {/* Info */}
-            <div className="p-4">
-              <div className="flex justify-between items-start mb-2">
-                <p className="text-sm font-semibold text-black">
+            {/* Overlay */}
+            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <div className="absolute bottom-0 left-0 right-0 p-4">
+                <p className="text-white font-medium text-sm">
                   {formatDate(photo.takenAt)}
                 </p>
                 {photo.weight && (
-                  <p className="text-sm text-gray-600">{photo.weight} kg</p>
+                  <p className="text-white/70 text-xs mt-0.5">
+                    {photo.weight} kg
+                  </p>
                 )}
               </div>
-
-              {photo.notes && (
-                <p className="text-sm text-gray-600 line-clamp-2">
-                  {photo.notes}
-                </p>
-              )}
             </div>
-          </div>
+
+            {/* Date badge (always visible) */}
+            <div className="absolute top-3 left-3">
+              <span className="px-2.5 py-1 rounded-md bg-black/60 backdrop-blur text-white text-xs font-medium">
+                {formatDate(photo.takenAt)}
+              </span>
+            </div>
+          </button>
         ))}
       </div>
 
       {/* Modal for full-size view */}
       {selectedPhoto && (
         <div
-          className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 p-4"
+          className="fixed inset-0 z-50 flex items-center justify-center p-4 animate-fade-in"
           onClick={() => setSelectedPhoto(null)}
         >
+          {/* Backdrop */}
+          <div className="absolute inset-0 bg-black/90 backdrop-blur-sm"></div>
+
+          {/* Modal content */}
           <div
-            className="bg-white rounded-lg max-w-4xl w-full max-h-[90vh] overflow-y-auto"
+            className="relative w-full max-w-4xl max-h-[90vh] flex flex-col animate-scale-in"
             onClick={(e) => e.stopPropagation()}
           >
-            {/* Header */}
-            <div className="p-4 border-b border-gray-200 flex justify-between items-center">
-              <h3 className="text-xl font-semibold text-black">
-                Progress Photo
-              </h3>
-              <button
-                onClick={() => setSelectedPhoto(null)}
-                className="text-gray-500 hover:text-black text-2xl"
-              >
-                ×
-              </button>
-            </div>
+            {/* Close button */}
+            <button
+              onClick={() => setSelectedPhoto(null)}
+              className="absolute -top-12 right-0 p-2 rounded-lg text-white/60 hover:text-white hover:bg-white/10 transition-colors z-10"
+            >
+              <XIcon className="w-6 h-6" />
+            </button>
 
-            {/* Image */}
-            <div className="p-4">
+            {/* Image container */}
+            <div className="relative flex-1 min-h-0 rounded-t-2xl overflow-hidden bg-[var(--bg-secondary)]">
               <img
                 src={selectedPhoto.blobUrl}
                 alt="Progress photo"
-                className="w-full h-auto rounded-lg"
+                className="w-full h-full object-contain"
               />
             </div>
 
-            {/* Details */}
-            <div className="p-4 border-t border-gray-200 space-y-3">
-              <div className="flex justify-between">
-                <span className="text-sm font-medium text-black">
-                  Date Taken:
-                </span>
-                <span className="text-sm text-gray-600">
-                  {formatDate(selectedPhoto.takenAt)}
-                </span>
-              </div>
-
-              {selectedPhoto.weight && (
-                <div className="flex justify-between">
-                  <span className="text-sm font-medium text-black">
-                    Weight:
-                  </span>
-                  <span className="text-sm text-gray-600">
-                    {selectedPhoto.weight} kg
-                  </span>
-                </div>
-              )}
-
-              <div className="flex justify-between">
-                <span className="text-sm font-medium text-black">
-                  Uploaded:
-                </span>
-                <span className="text-sm text-gray-600">
-                  {formatDate(selectedPhoto.uploadedAt)}
-                </span>
-              </div>
-
-              {selectedPhoto.notes && (
+            {/* Details panel */}
+            <div className="bg-[var(--bg-card)] rounded-b-2xl border-t border-[var(--border-subtle)]">
+              {/* Info grid */}
+              <div className="p-6 grid grid-cols-2 sm:grid-cols-4 gap-4">
                 <div>
-                  <p className="text-sm font-medium text-black mb-1">Notes:</p>
-                  <p className="text-sm text-gray-600">{selectedPhoto.notes}</p>
+                  <p className="text-xs text-[var(--text-muted)] uppercase tracking-wider mb-1">
+                    Date Taken
+                  </p>
+                  <p className="font-medium text-[var(--text-primary)]">
+                    {formatDate(selectedPhoto.takenAt)}
+                  </p>
                 </div>
-              )}
-            </div>
 
-            {/* Actions */}
-            <div className="p-4 border-t border-gray-200 flex gap-3">
-              <button
-                onClick={() => window.open(selectedPhoto.blobUrl, "_blank")}
-                className="flex-1 bg-gray-100 text-black py-2 px-4 rounded-lg font-semibold hover:bg-gray-200 transition-colors"
-              >
-                Open Original
-              </button>
-              <button
-                onClick={() => handleDelete(selectedPhoto.id)}
-                disabled={deleting}
-                className="flex-1 bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 disabled:bg-gray-300 transition-colors"
-              >
-                {deleting ? "Deleting..." : "Delete"}
-              </button>
+                {selectedPhoto.weight && (
+                  <div>
+                    <p className="text-xs text-[var(--text-muted)] uppercase tracking-wider mb-1">
+                      Weight
+                    </p>
+                    <p className="font-medium text-[var(--text-primary)]">
+                      {selectedPhoto.weight} kg
+                    </p>
+                  </div>
+                )}
+
+                <div>
+                  <p className="text-xs text-[var(--text-muted)] uppercase tracking-wider mb-1">
+                    Uploaded
+                  </p>
+                  <p className="font-medium text-[var(--text-primary)]">
+                    {formatDate(selectedPhoto.uploadedAt)}
+                  </p>
+                </div>
+
+                {selectedPhoto.notes && (
+                  <div className="col-span-2 sm:col-span-1">
+                    <p className="text-xs text-[var(--text-muted)] uppercase tracking-wider mb-1">
+                      Notes
+                    </p>
+                    <p className="text-[var(--text-secondary)] text-sm line-clamp-2">
+                      {selectedPhoto.notes}
+                    </p>
+                  </div>
+                )}
+              </div>
+
+              {/* Actions */}
+              <div className="px-6 pb-6 flex gap-3">
+                <button
+                  onClick={() => window.open(selectedPhoto.blobUrl, "_blank")}
+                  className="btn btn-secondary flex-1"
+                >
+                  <ExternalLinkIcon className="w-4 h-4" />
+                  Open Original
+                </button>
+                <button
+                  onClick={() => handleDelete(selectedPhoto.id)}
+                  disabled={deleting}
+                  className="btn btn-danger flex-1"
+                >
+                  {deleting ? (
+                    <>
+                      <div className="spinner spinner-sm"></div>
+                      Deleting...
+                    </>
+                  ) : (
+                    <>
+                      <TrashIcon className="w-4 h-4" />
+                      Delete
+                    </>
+                  )}
+                </button>
+              </div>
             </div>
           </div>
         </div>
       )}
     </>
+  );
+}
+
+// Icons
+function XIcon({ className }: { className?: string }) {
+  return (
+    <svg className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+      <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+    </svg>
+  );
+}
+
+function ExternalLinkIcon({ className }: { className?: string }) {
+  return (
+    <svg className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+      <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+    </svg>
+  );
+}
+
+function TrashIcon({ className }: { className?: string }) {
+  return (
+    <svg className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+      <path strokeLinecap="round" strokeLinejoin="round" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+    </svg>
   );
 }
