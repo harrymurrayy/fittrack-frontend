@@ -1,33 +1,42 @@
 "use client";
 
 import { MsalProvider } from "@azure/msal-react";
-import { PublicClientApplication, EventType } from "@azure/msal-browser";
-import { msalConfig } from "../lib/authConfig";
-import { ReactNode, useEffect, useState, useRef } from "react";
+import { PublicClientApplication } from "@azure/msal-browser";
+import { ReactNode, useEffect, useState } from "react";
+
+let msalInstance: PublicClientApplication | null = null;
 
 export default function AuthProvider({ children }: { children: ReactNode }) {
   const [isInitialized, setIsInitialized] = useState(false);
-  const msalInstanceRef = useRef<PublicClientApplication | null>(null);
 
   useEffect(() => {
     const initializeMsal = async () => {
       try {
-        // Create MSAL instance on client-side only
-        // This ensures window.location is available for redirect URI detection
-        if (!msalInstanceRef.current) {
-          msalInstanceRef.current = new PublicClientApplication(msalConfig);
-        }
+        // Determine redirect URI based on current location
+        const isProduction = window.location.hostname !== "localhost";
+        const redirectUri = isProduction
+          ? "https://fittrack-frontend-bpdtekgzbpgwc8a0.italynorth-01.azurewebsites.net"
+          : "http://localhost:3000";
 
-        const msalInstance = msalInstanceRef.current;
+        console.log("🔍 Initializing MSAL with redirectUri:", redirectUri);
+
+        // Create MSAL instance with correct redirectUri
+        msalInstance = new PublicClientApplication({
+          auth: {
+            clientId: "1c890c47-8d12-4cc6-833a-24dc176e6198",
+            authority:
+              "https://login.microsoftonline.com/2c8b0440-b840-44d9-b97d-758669cf9f7f",
+            redirectUri: redirectUri,
+            postLogoutRedirectUri: `${redirectUri}/signin`,
+          },
+          cache: {
+            cacheLocation: "sessionStorage",
+            storeAuthStateInCookie: false,
+          },
+        });
 
         await msalInstance.initialize();
         await msalInstance.handleRedirectPromise();
-
-        msalInstance.addEventCallback((event) => {
-          if (event.eventType === EventType.LOGIN_SUCCESS) {
-            console.log("Login successful!");
-          }
-        });
 
         setIsInitialized(true);
       } catch (error) {
@@ -39,19 +48,13 @@ export default function AuthProvider({ children }: { children: ReactNode }) {
     initializeMsal();
   }, []);
 
-  if (!isInitialized || !msalInstanceRef.current) {
+  if (!isInitialized || !msalInstance) {
     return (
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="text-center animate-fade-in">
-          <div className="w-16 h-16 rounded-2xl bg-[var(--accent)] flex items-center justify-center mx-auto mb-6 animate-pulse-glow">
-            <span className="text-black font-bold text-2xl">F</span>
-          </div>
-          <div className="spinner mx-auto mb-4"></div>
-          <p className="text-[var(--text-secondary)]">Loading FitTrack...</p>
-        </div>
+      <div className="min-h-screen bg-white flex items-center justify-center">
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-black"></div>
       </div>
     );
   }
 
-  return <MsalProvider instance={msalInstanceRef.current}>{children}</MsalProvider>;
+  return <MsalProvider instance={msalInstance}>{children}</MsalProvider>;
 }
