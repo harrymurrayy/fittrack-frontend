@@ -3,16 +3,23 @@
 import { MsalProvider } from "@azure/msal-react";
 import { PublicClientApplication, EventType } from "@azure/msal-browser";
 import { msalConfig } from "../lib/authConfig";
-import { ReactNode, useEffect, useState } from "react";
-
-const msalInstance = new PublicClientApplication(msalConfig);
+import { ReactNode, useEffect, useState, useRef } from "react";
 
 export default function AuthProvider({ children }: { children: ReactNode }) {
   const [isInitialized, setIsInitialized] = useState(false);
+  const msalInstanceRef = useRef<PublicClientApplication | null>(null);
 
   useEffect(() => {
     const initializeMsal = async () => {
       try {
+        // Create MSAL instance on client-side only
+        // This ensures window.location is available for redirect URI detection
+        if (!msalInstanceRef.current) {
+          msalInstanceRef.current = new PublicClientApplication(msalConfig);
+        }
+
+        const msalInstance = msalInstanceRef.current;
+
         await msalInstance.initialize();
         await msalInstance.handleRedirectPromise();
 
@@ -32,7 +39,7 @@ export default function AuthProvider({ children }: { children: ReactNode }) {
     initializeMsal();
   }, []);
 
-  if (!isInitialized) {
+  if (!isInitialized || !msalInstanceRef.current) {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center animate-fade-in">
@@ -46,5 +53,5 @@ export default function AuthProvider({ children }: { children: ReactNode }) {
     );
   }
 
-  return <MsalProvider instance={msalInstance}>{children}</MsalProvider>;
+  return <MsalProvider instance={msalInstanceRef.current}>{children}</MsalProvider>;
 }
