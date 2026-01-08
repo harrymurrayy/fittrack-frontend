@@ -30,9 +30,10 @@ jobs:
 
       - name: Copy standalone output
         run: |
-          cp -r .next/standalone ./deploy
-          cp -r .next/static ./deploy/.next/static
-          cp -r public ./deploy/public
+          cp -r .next/standalone/. ./deploy
+          mkdir -p deploy/.next
+          cp -r .next/static deploy/.next/static
+          cp -r public deploy/public
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
