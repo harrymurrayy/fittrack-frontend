@@ -1,9 +1,8 @@
 import { PublicClientApplication } from "@azure/msal-browser";
 import { msalConfig, loginRequest } from "../lib/authConfig";
+import { config } from "../lib/config";
 
-const API_BASE =
-  process.env.NEXT_PUBLIC_API_URL ||
-  "https://fittrack-api-hm-a4bde4egfffuczdz.italynorth-01.azurewebsites.net/api";
+const API_BASE = config.apiUrl;
 
 // Initialize MSAL to get tokens
 const msalInstance = new PublicClientApplication(msalConfig);

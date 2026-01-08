@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { useMsal } from "@azure/msal-react";
 import { useState } from "react";
+import { config } from "../lib/config";
 
 export default function Navigation() {
   const pathname = usePathname();
@@ -15,10 +16,8 @@ export default function Navigation() {
 
   const handleLogout = async () => {
     try {
-      const redirectUri =
-        process.env.NEXT_PUBLIC_REDIRECT_URI || "http://localhost:3000";
       await instance.logoutRedirect({
-        postLogoutRedirectUri: `${redirectUri}/signin`,
+        postLogoutRedirectUri: `${config.redirectUri}/signin`,
       });
     } catch (error) {
       console.error("Logout failed:", error);
