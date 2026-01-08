@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy Node.js app to Azure Web App - fittrack-app
+name: Build and deploy Node.js app to Azure Web App - fittrack-app-hm-dpasbtaretb7a9ce
 
 on:
   push:
@@ -48,7 +48,7 @@ jobs:
       - name: "Deploy to Azure Web App"
         uses: azure/webapps-deploy@v3
         with:
-          app-name: "fittrack-app"
+          app-name: "fittrack-app-hm-dpasbtaretb7a9ce" # ⭐ CHANGED
           slot-name: "Production"
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
           package: .
