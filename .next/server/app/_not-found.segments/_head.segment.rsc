@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[81260,["/_next/static/chunks/f17ffaa5dcc3ca15.js","/_next/static/chunks/41c4669d61a21a8d.js"],"ViewportBoundary"]
+3:I[81260,["/_next/static/chunks/f17ffaa5dcc3ca15.js","/_next/static/chunks/41c4669d61a21a8d.js"],"MetadataBoundary"]
+4:"$Sreact.suspense"
+5:I[78070,["/_next/static/chunks/f17ffaa5dcc3ca15.js","/_next/static/chunks/41c4669d61a21a8d.js"],"IconMark"]
+0:{"buildId":"uIXBxme8yr1lXSq-NgVWw","rsc":["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"FitTrack | Track Your Fitness Journey"}],["$","meta","1",{"name":"description","content":"Log workouts, track progress photos, and visualize your fitness transformation with FitTrack."}],["$","meta","2",{"name":"keywords","content":"fitness,workout tracker,gym,progress photos,exercise"}],["$","link","3",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L5","4",{}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"loading":null,"isPartial":false}

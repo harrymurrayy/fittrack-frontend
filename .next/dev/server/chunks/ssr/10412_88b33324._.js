@@ -1,0 +1,914 @@
+module.exports = [
+"[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/next/dist/server/route-modules/app-page/module.compiled.js [app-ssr] (ecmascript)", ((__turbopack_context__, module, exports) => {
+"use strict";
+
+if ("TURBOPACK compile-time falsy", 0) //TURBOPACK unreachable
+;
+else {
+    if ("TURBOPACK compile-time falsy", 0) //TURBOPACK unreachable
+    ;
+    else {
+        if ("TURBOPACK compile-time truthy", 1) {
+            if ("TURBOPACK compile-time truthy", 1) {
+                module.exports = __turbopack_context__.r("[externals]/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js [external] (next/dist/compiled/next-server/app-page-turbo.runtime.dev.js, cjs)");
+            } else //TURBOPACK unreachable
+            ;
+        } else //TURBOPACK unreachable
+        ;
+    }
+} //# sourceMappingURL=module.compiled.js.map
+}),
+"[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)", ((__turbopack_context__, module, exports) => {
+"use strict";
+
+module.exports = __turbopack_context__.r("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/next/dist/server/route-modules/app-page/module.compiled.js [app-ssr] (ecmascript)").vendored['react-ssr'].ReactJsxDevRuntime; //# sourceMappingURL=react-jsx-dev-runtime.js.map
+}),
+"[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)", ((__turbopack_context__, module, exports) => {
+"use strict";
+
+module.exports = __turbopack_context__.r("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/next/dist/server/route-modules/app-page/module.compiled.js [app-ssr] (ecmascript)").vendored['react-ssr'].React; //# sourceMappingURL=react.js.map
+}),
+"[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-react/dist/MsalContext.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "MsalConsumer",
+    ()=>MsalConsumer,
+    "MsalContext",
+    ()=>MsalContext
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$common$2f$dist$2f$logger$2f$Logger$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-common/dist/logger/Logger.mjs [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$browser$2f$dist$2f$utils$2f$BrowserConstants$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-browser/dist/utils/BrowserConstants.mjs [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$browser$2f$dist$2f$app$2f$IPublicClientApplication$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-browser/dist/app/IPublicClientApplication.mjs [app-ssr] (ecmascript)");
+/*! @azure/msal-react v3.0.23 2025-12-04 */ 'use strict';
+;
+;
+/*
+ * Copyright (c) Microsoft Corporation. All rights reserved.
+ * Licensed under the MIT License.
+ */ /*
+ * Stubbed context implementation
+ * Only used when there is no provider, which is an unsupported scenario
+ */ const defaultMsalContext = {
+    instance: __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$browser$2f$dist$2f$app$2f$IPublicClientApplication$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["stubbedPublicClientApplication"],
+    inProgress: __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$browser$2f$dist$2f$utils$2f$BrowserConstants$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["InteractionStatus"].None,
+    accounts: [],
+    logger: new __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$common$2f$dist$2f$logger$2f$Logger$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Logger"]({})
+};
+const MsalContext = __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["createContext"](defaultMsalContext);
+const MsalConsumer = MsalContext.Consumer;
+;
+ //# sourceMappingURL=MsalContext.js.map
+}),
+"[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-react/dist/utils/utilities.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "accountArraysAreEqual",
+    ()=>accountArraysAreEqual,
+    "getAccountByIdentifiers",
+    ()=>getAccountByIdentifiers,
+    "getChildrenOrFunction",
+    ()=>getChildrenOrFunction
+]);
+/*! @azure/msal-react v3.0.23 2025-12-04 */ 'use strict';
+/*
+ * Copyright (c) Microsoft Corporation. All rights reserved.
+ * Licensed under the MIT License.
+ */ function getChildrenOrFunction(children, args) {
+    if (typeof children === "function") {
+        return children(args);
+    }
+    return children;
+}
+/**
+ * Helper function to determine whether 2 arrays are equal
+ * Used to avoid unnecessary state updates
+ * @param arrayA
+ * @param arrayB
+ */ function accountArraysAreEqual(arrayA, arrayB) {
+    if (arrayA.length !== arrayB.length) {
+        return false;
+    }
+    const comparisonArray = [
+        ...arrayB
+    ];
+    return arrayA.every((elementA)=>{
+        const elementB = comparisonArray.shift();
+        if (!elementA || !elementB) {
+            return false;
+        }
+        return elementA.homeAccountId === elementB.homeAccountId && elementA.localAccountId === elementB.localAccountId && elementA.username === elementB.username;
+    });
+}
+function getAccountByIdentifiers(allAccounts, accountIdentifiers) {
+    if (allAccounts.length > 0 && (accountIdentifiers.homeAccountId || accountIdentifiers.localAccountId || accountIdentifiers.username)) {
+        const matchedAccounts = allAccounts.filter((accountObj)=>{
+            if (accountIdentifiers.username && accountIdentifiers.username.toLowerCase() !== accountObj.username.toLowerCase()) {
+                return false;
+            }
+            if (accountIdentifiers.homeAccountId && accountIdentifiers.homeAccountId.toLowerCase() !== accountObj.homeAccountId.toLowerCase()) {
+                return false;
+            }
+            if (accountIdentifiers.localAccountId && accountIdentifiers.localAccountId.toLowerCase() !== accountObj.localAccountId.toLowerCase()) {
+                return false;
+            }
+            return true;
+        });
+        return matchedAccounts[0] || null;
+    } else {
+        return null;
+    }
+}
+;
+ //# sourceMappingURL=utilities.js.map
+}),
+"[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-react/dist/packageMetadata.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "name",
+    ()=>name,
+    "version",
+    ()=>version
+]);
+/*! @azure/msal-react v3.0.23 2025-12-04 */ 'use strict';
+/* eslint-disable header/header */ const name = "@azure/msal-react";
+const version = "3.0.23";
+;
+ //# sourceMappingURL=packageMetadata.js.map
+}),
+"[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-react/dist/MsalProvider.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "MsalProvider",
+    ()=>MsalProvider
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$browser$2f$dist$2f$utils$2f$BrowserConstants$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-browser/dist/utils/BrowserConstants.mjs [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$browser$2f$dist$2f$event$2f$EventMessage$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-browser/dist/event/EventMessage.mjs [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$MsalContext$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-react/dist/MsalContext.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$utils$2f$utilities$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-react/dist/utils/utilities.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$packageMetadata$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-react/dist/packageMetadata.js [app-ssr] (ecmascript)");
+/*! @azure/msal-react v3.0.23 2025-12-04 */ 'use strict';
+;
+;
+;
+;
+;
+/*
+ * Copyright (c) Microsoft Corporation. All rights reserved.
+ * Licensed under the MIT License.
+ */ const MsalProviderActionType = {
+    UNBLOCK_INPROGRESS: "UNBLOCK_INPROGRESS",
+    EVENT: "EVENT"
+};
+/**
+ * Returns the next inProgress and accounts state based on event message
+ * @param previousState
+ * @param action
+ */ const reducer = (previousState, action)=>{
+    const { type, payload } = action;
+    let newInProgress = previousState.inProgress;
+    switch(type){
+        case MsalProviderActionType.UNBLOCK_INPROGRESS:
+            if (previousState.inProgress === __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$browser$2f$dist$2f$utils$2f$BrowserConstants$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["InteractionStatus"].Startup) {
+                newInProgress = __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$browser$2f$dist$2f$utils$2f$BrowserConstants$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["InteractionStatus"].None;
+                payload.logger.info("MsalProvider - handleRedirectPromise resolved, setting inProgress to 'none'");
+            }
+            break;
+        case MsalProviderActionType.EVENT:
+            const message = payload.message;
+            const status = __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$browser$2f$dist$2f$event$2f$EventMessage$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["EventMessageUtils"].getInteractionStatusFromEvent(message, previousState.inProgress);
+            if (status) {
+                payload.logger.info(`MsalProvider - ${message.eventType} results in setting inProgress from ${previousState.inProgress} to ${status}`);
+                newInProgress = status;
+            }
+            break;
+        default:
+            throw new Error(`Unknown action type: ${type}`);
+    }
+    if (newInProgress === __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$browser$2f$dist$2f$utils$2f$BrowserConstants$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["InteractionStatus"].Startup) {
+        // Can't start checking accounts until initialization is complete
+        return previousState;
+    }
+    const currentAccounts = payload.instance.getAllAccounts();
+    if (newInProgress !== previousState.inProgress && !(0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$utils$2f$utilities$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["accountArraysAreEqual"])(currentAccounts, previousState.accounts)) {
+        // Both inProgress and accounts changed
+        return {
+            ...previousState,
+            inProgress: newInProgress,
+            accounts: currentAccounts
+        };
+    } else if (newInProgress !== previousState.inProgress) {
+        // Only only inProgress changed
+        return {
+            ...previousState,
+            inProgress: newInProgress
+        };
+    } else if (!(0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$utils$2f$utilities$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["accountArraysAreEqual"])(currentAccounts, previousState.accounts)) {
+        // Only accounts changed
+        return {
+            ...previousState,
+            accounts: currentAccounts
+        };
+    } else {
+        // Nothing changed
+        return previousState;
+    }
+};
+/**
+ * MSAL context provider component. This must be rendered above any other components that use MSAL.
+ */ function MsalProvider({ instance, children }) {
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        instance.initializeWrapperLibrary(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$browser$2f$dist$2f$utils$2f$BrowserConstants$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["WrapperSKU"].React, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$packageMetadata$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["version"]);
+    }, [
+        instance
+    ]);
+    // Create a logger instance for msal-react with the same options as PublicClientApplication
+    const logger = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useMemo"])(()=>{
+        return instance.getLogger().clone(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$packageMetadata$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["name"], __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$packageMetadata$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["version"]);
+    }, [
+        instance
+    ]);
+    const [state, updateState] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useReducer"])(reducer, undefined, ()=>{
+        // Lazy initialization of the initial state
+        return {
+            inProgress: __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$browser$2f$dist$2f$utils$2f$BrowserConstants$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["InteractionStatus"].Startup,
+            accounts: []
+        };
+    });
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        const callbackId = instance.addEventCallback((message)=>{
+            updateState({
+                payload: {
+                    instance,
+                    logger,
+                    message
+                },
+                type: MsalProviderActionType.EVENT
+            });
+        });
+        logger.verbose(`MsalProvider - Registered event callback with id: ${callbackId}`);
+        instance.initialize().then(()=>{
+            instance.handleRedirectPromise().catch(()=>{
+                // Errors should be handled by listening to the LOGIN_FAILURE event
+                return;
+            }).finally(()=>{
+                /*
+                 * If handleRedirectPromise returns a cached promise the necessary events may not be fired
+                 * This is a fallback to prevent inProgress from getting stuck in 'startup'
+                 */ updateState({
+                    payload: {
+                        instance,
+                        logger
+                    },
+                    type: MsalProviderActionType.UNBLOCK_INPROGRESS
+                });
+            });
+        }).catch(()=>{
+            // Errors should be handled by listening to the LOGIN_FAILURE event
+            return;
+        });
+        return ()=>{
+            // Remove callback when component unmounts or accounts change
+            if (callbackId) {
+                logger.verbose(`MsalProvider - Removing event callback ${callbackId}`);
+                instance.removeEventCallback(callbackId);
+            }
+        };
+    }, [
+        instance,
+        logger
+    ]);
+    const contextValue = {
+        instance,
+        inProgress: state.inProgress,
+        accounts: state.accounts,
+        logger
+    };
+    return __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].createElement(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$MsalContext$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["MsalContext"].Provider, {
+        value: contextValue
+    }, children);
+}
+;
+ //# sourceMappingURL=MsalProvider.js.map
+}),
+"[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-react/dist/hooks/useMsal.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "useMsal",
+    ()=>useMsal
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$MsalContext$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-react/dist/MsalContext.js [app-ssr] (ecmascript)");
+/*! @azure/msal-react v3.0.23 2025-12-04 */ 'use strict';
+;
+;
+/*
+ * Copyright (c) Microsoft Corporation. All rights reserved.
+ * Licensed under the MIT License.
+ */ /**
+ * Returns Msal Context values
+ */ const useMsal = ()=>(0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useContext"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$MsalContext$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["MsalContext"]);
+;
+ //# sourceMappingURL=useMsal.js.map
+}),
+"[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-react/dist/hooks/useIsAuthenticated.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "useIsAuthenticated",
+    ()=>useIsAuthenticated
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$hooks$2f$useMsal$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-react/dist/hooks/useMsal.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$browser$2f$dist$2f$utils$2f$BrowserConstants$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-browser/dist/utils/BrowserConstants.mjs [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$utils$2f$utilities$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-react/dist/utils/utilities.js [app-ssr] (ecmascript)");
+/*! @azure/msal-react v3.0.23 2025-12-04 */ 'use strict';
+;
+;
+;
+;
+/*
+ * Copyright (c) Microsoft Corporation. All rights reserved.
+ * Licensed under the MIT License.
+ */ function isAuthenticated(allAccounts, matchAccount) {
+    if (matchAccount && (matchAccount.username || matchAccount.homeAccountId || matchAccount.localAccountId)) {
+        return !!(0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$utils$2f$utilities$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["getAccountByIdentifiers"])(allAccounts, matchAccount);
+    }
+    return allAccounts.length > 0;
+}
+/**
+ * Returns whether or not a user is currently signed-in. Optionally provide 1 or more accountIdentifiers to determine if a specific user is signed-in
+ * @param matchAccount
+ */ function useIsAuthenticated(matchAccount) {
+    const { accounts: allAccounts, inProgress } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$hooks$2f$useMsal$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useMsal"])();
+    const isUserAuthenticated = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useMemo"])(()=>{
+        if (inProgress === __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$browser$2f$dist$2f$utils$2f$BrowserConstants$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["InteractionStatus"].Startup) {
+            return false;
+        }
+        return isAuthenticated(allAccounts, matchAccount);
+    }, [
+        allAccounts,
+        inProgress,
+        matchAccount
+    ]);
+    return isUserAuthenticated;
+}
+;
+ //# sourceMappingURL=useIsAuthenticated.js.map
+}),
+"[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-react/dist/components/AuthenticatedTemplate.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "AuthenticatedTemplate",
+    ()=>AuthenticatedTemplate
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$utils$2f$utilities$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-react/dist/utils/utilities.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$hooks$2f$useMsal$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-react/dist/hooks/useMsal.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$hooks$2f$useIsAuthenticated$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-react/dist/hooks/useIsAuthenticated.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$browser$2f$dist$2f$utils$2f$BrowserConstants$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-browser/dist/utils/BrowserConstants.mjs [app-ssr] (ecmascript)");
+/*! @azure/msal-react v3.0.23 2025-12-04 */ 'use strict';
+;
+;
+;
+;
+;
+/*
+ * Copyright (c) Microsoft Corporation. All rights reserved.
+ * Licensed under the MIT License.
+ */ /**
+ * Renders child components if user is authenticated
+ * @param props
+ */ function AuthenticatedTemplate({ username, homeAccountId, localAccountId, children }) {
+    const context = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$hooks$2f$useMsal$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useMsal"])();
+    const accountIdentifier = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useMemo"])(()=>{
+        return {
+            username,
+            homeAccountId,
+            localAccountId
+        };
+    }, [
+        username,
+        homeAccountId,
+        localAccountId
+    ]);
+    const isAuthenticated = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$hooks$2f$useIsAuthenticated$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useIsAuthenticated"])(accountIdentifier);
+    if (isAuthenticated && context.inProgress !== __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$browser$2f$dist$2f$utils$2f$BrowserConstants$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["InteractionStatus"].Startup) {
+        return __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].createElement(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].Fragment, null, (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$utils$2f$utilities$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["getChildrenOrFunction"])(children, context));
+    }
+    return null;
+}
+;
+ //# sourceMappingURL=AuthenticatedTemplate.js.map
+}),
+"[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-react/dist/components/UnauthenticatedTemplate.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "UnauthenticatedTemplate",
+    ()=>UnauthenticatedTemplate
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$hooks$2f$useMsal$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-react/dist/hooks/useMsal.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$hooks$2f$useIsAuthenticated$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-react/dist/hooks/useIsAuthenticated.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$utils$2f$utilities$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-react/dist/utils/utilities.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$browser$2f$dist$2f$utils$2f$BrowserConstants$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-browser/dist/utils/BrowserConstants.mjs [app-ssr] (ecmascript)");
+/*! @azure/msal-react v3.0.23 2025-12-04 */ 'use strict';
+;
+;
+;
+;
+;
+/*
+ * Copyright (c) Microsoft Corporation. All rights reserved.
+ * Licensed under the MIT License.
+ */ /**
+ * Renders child components if user is unauthenticated
+ * @param props
+ */ function UnauthenticatedTemplate({ username, homeAccountId, localAccountId, children }) {
+    const context = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$hooks$2f$useMsal$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useMsal"])();
+    const accountIdentifier = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useMemo"])(()=>{
+        return {
+            username,
+            homeAccountId,
+            localAccountId
+        };
+    }, [
+        username,
+        homeAccountId,
+        localAccountId
+    ]);
+    const isAuthenticated = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$hooks$2f$useIsAuthenticated$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useIsAuthenticated"])(accountIdentifier);
+    if (!isAuthenticated && context.inProgress !== __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$browser$2f$dist$2f$utils$2f$BrowserConstants$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["InteractionStatus"].Startup && context.inProgress !== __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$browser$2f$dist$2f$utils$2f$BrowserConstants$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["InteractionStatus"].HandleRedirect) {
+        return __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].createElement(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].Fragment, null, (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$utils$2f$utilities$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["getChildrenOrFunction"])(children, context));
+    }
+    return null;
+}
+;
+ //# sourceMappingURL=UnauthenticatedTemplate.js.map
+}),
+"[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-react/dist/hooks/useAccount.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "useAccount",
+    ()=>useAccount
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$browser$2f$dist$2f$utils$2f$BrowserConstants$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-browser/dist/utils/BrowserConstants.mjs [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$common$2f$dist$2f$cache$2f$entities$2f$AccountEntity$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-common/dist/cache/entities/AccountEntity.mjs [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$hooks$2f$useMsal$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-react/dist/hooks/useMsal.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$utils$2f$utilities$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-react/dist/utils/utilities.js [app-ssr] (ecmascript)");
+/*! @azure/msal-react v3.0.23 2025-12-04 */ 'use strict';
+;
+;
+;
+;
+/*
+ * Copyright (c) Microsoft Corporation. All rights reserved.
+ * Licensed under the MIT License.
+ */ function getAccount(instance, accountIdentifiers) {
+    if (!accountIdentifiers || !accountIdentifiers.homeAccountId && !accountIdentifiers.localAccountId && !accountIdentifiers.username) {
+        // If no account identifiers are provided, return active account
+        return instance.getActiveAccount();
+    }
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$utils$2f$utilities$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["getAccountByIdentifiers"])(instance.getAllAccounts(), accountIdentifiers);
+}
+/**
+ * Given 1 or more accountIdentifiers, returns the Account object if the user is signed-in
+ * @param accountIdentifiers
+ */ function useAccount(accountIdentifiers) {
+    const { instance, inProgress, logger } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$hooks$2f$useMsal$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useMsal"])();
+    const [account, setAccount] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(()=>{
+        if (inProgress === __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$browser$2f$dist$2f$utils$2f$BrowserConstants$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["InteractionStatus"].Startup) {
+            return null;
+        } else {
+            return getAccount(instance, accountIdentifiers);
+        }
+    });
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        if (inProgress !== __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$browser$2f$dist$2f$utils$2f$BrowserConstants$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["InteractionStatus"].Startup) {
+            setAccount((currentAccount)=>{
+                const nextAccount = getAccount(instance, accountIdentifiers);
+                if (!__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$common$2f$dist$2f$cache$2f$entities$2f$AccountEntity$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["AccountEntity"].accountInfoIsEqual(currentAccount, nextAccount, true)) {
+                    logger.info("useAccount - Updating account");
+                    return nextAccount;
+                }
+                return currentAccount;
+            });
+        }
+    }, [
+        inProgress,
+        accountIdentifiers,
+        instance,
+        logger
+    ]);
+    return account;
+}
+;
+ //# sourceMappingURL=useAccount.js.map
+}),
+"[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-react/dist/error/ReactAuthError.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "ReactAuthError",
+    ()=>ReactAuthError,
+    "ReactAuthErrorMessage",
+    ()=>ReactAuthErrorMessage
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$common$2f$dist$2f$error$2f$AuthError$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-common/dist/error/AuthError.mjs [app-ssr] (ecmascript) <locals>");
+/*! @azure/msal-react v3.0.23 2025-12-04 */ 'use strict';
+;
+/*
+ * Copyright (c) Microsoft Corporation. All rights reserved.
+ * Licensed under the MIT License.
+ */ const ReactAuthErrorMessage = {
+    invalidInteractionType: {
+        code: "invalid_interaction_type",
+        desc: "The provided interaction type is invalid."
+    },
+    unableToFallbackToInteraction: {
+        code: "unable_to_fallback_to_interaction",
+        desc: "Interaction is required but another interaction is already in progress. Please try again when the current interaction is complete."
+    }
+};
+class ReactAuthError extends __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$common$2f$dist$2f$error$2f$AuthError$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["AuthError"] {
+    constructor(errorCode, errorMessage){
+        super(errorCode, errorMessage);
+        Object.setPrototypeOf(this, ReactAuthError.prototype);
+        this.name = "ReactAuthError";
+    }
+    static createInvalidInteractionTypeError() {
+        return new ReactAuthError(ReactAuthErrorMessage.invalidInteractionType.code, ReactAuthErrorMessage.invalidInteractionType.desc);
+    }
+    static createUnableToFallbackToInteractionError() {
+        return new ReactAuthError(ReactAuthErrorMessage.unableToFallbackToInteraction.code, ReactAuthErrorMessage.unableToFallbackToInteraction.desc);
+    }
+}
+;
+ //# sourceMappingURL=ReactAuthError.js.map
+}),
+"[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-react/dist/hooks/useMsalAuthentication.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "useMsalAuthentication",
+    ()=>useMsalAuthentication
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$browser$2f$dist$2f$utils$2f$BrowserConstants$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-browser/dist/utils/BrowserConstants.mjs [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$browser$2f$dist$2f$event$2f$EventType$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-browser/dist/event/EventType.mjs [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$common$2f$dist$2f$error$2f$InteractionRequiredAuthError$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-common/dist/error/InteractionRequiredAuthError.mjs [app-ssr] (ecmascript) <locals>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$common$2f$dist$2f$utils$2f$Constants$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-common/dist/utils/Constants.mjs [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$hooks$2f$useIsAuthenticated$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-react/dist/hooks/useIsAuthenticated.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$hooks$2f$useMsal$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-react/dist/hooks/useMsal.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$hooks$2f$useAccount$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-react/dist/hooks/useAccount.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$error$2f$ReactAuthError$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-react/dist/error/ReactAuthError.js [app-ssr] (ecmascript)");
+/*! @azure/msal-react v3.0.23 2025-12-04 */ 'use strict';
+;
+;
+;
+;
+;
+;
+/*
+ * Copyright (c) Microsoft Corporation. All rights reserved.
+ * Licensed under the MIT License.
+ */ /**
+ * If a user is not currently signed in this hook invokes a login. Failed logins can be retried using the login callback returned.
+ * If a user is currently signed in this hook attempts to acquire a token. Subsequent token requests can use the acquireToken callback returned.
+ * Optionally provide a request object to be used in the login/acquireToken call.
+ * Optionally provide a specific user that should be logged in.
+ * @param interactionType
+ * @param authenticationRequest
+ * @param accountIdentifiers
+ */ function useMsalAuthentication(interactionType, authenticationRequest, accountIdentifiers) {
+    const { instance, inProgress, logger } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$hooks$2f$useMsal$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useMsal"])();
+    const isAuthenticated = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$hooks$2f$useIsAuthenticated$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useIsAuthenticated"])(accountIdentifiers);
+    const account = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$hooks$2f$useAccount$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useAccount"])(accountIdentifiers);
+    const [[result, error], setResponse] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])([
+        null,
+        null
+    ]);
+    // Used to prevent state updates after unmount
+    const mounted = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(true);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        return ()=>{
+            mounted.current = false;
+        };
+    }, []);
+    // Boolean used to check if interaction is in progress in acquireTokenSilent fallback. Use Ref instead of state to prevent acquireToken function from being regenerated on each change to interactionInProgress value
+    const interactionInProgress = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(inProgress !== __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$browser$2f$dist$2f$utils$2f$BrowserConstants$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["InteractionStatus"].None);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        interactionInProgress.current = inProgress !== __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$browser$2f$dist$2f$utils$2f$BrowserConstants$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["InteractionStatus"].None;
+    }, [
+        inProgress
+    ]);
+    // Flag used to control when the hook calls login/acquireToken
+    const shouldAcquireToken = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(true);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        if (!!error) {
+            // Errors should be handled by consuming component
+            shouldAcquireToken.current = false;
+            return;
+        }
+        if (!!result) {
+            // Token has already been acquired, consuming component/application is responsible for renewing
+            shouldAcquireToken.current = false;
+            return;
+        }
+    }, [
+        error,
+        result
+    ]);
+    const login = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useCallback"])(async (callbackInteractionType, callbackRequest)=>{
+        const loginType = callbackInteractionType || interactionType;
+        const loginRequest = callbackRequest || authenticationRequest;
+        switch(loginType){
+            case __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$browser$2f$dist$2f$utils$2f$BrowserConstants$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["InteractionType"].Popup:
+                logger.verbose("useMsalAuthentication - Calling loginPopup");
+                return instance.loginPopup(loginRequest);
+            case __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$browser$2f$dist$2f$utils$2f$BrowserConstants$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["InteractionType"].Redirect:
+                // This promise is not expected to resolve due to full frame redirect
+                logger.verbose("useMsalAuthentication - Calling loginRedirect");
+                return instance.loginRedirect(loginRequest).then(null);
+            case __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$browser$2f$dist$2f$utils$2f$BrowserConstants$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["InteractionType"].Silent:
+                logger.verbose("useMsalAuthentication - Calling ssoSilent");
+                return instance.ssoSilent(loginRequest);
+            default:
+                throw __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$error$2f$ReactAuthError$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ReactAuthError"].createInvalidInteractionTypeError();
+        }
+    }, [
+        instance,
+        interactionType,
+        authenticationRequest,
+        logger
+    ]);
+    const acquireToken = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useCallback"])(async (callbackInteractionType, callbackRequest)=>{
+        const fallbackInteractionType = callbackInteractionType || interactionType;
+        let tokenRequest;
+        if (callbackRequest) {
+            logger.trace("useMsalAuthentication - acquireToken - Using request provided in the callback");
+            tokenRequest = {
+                ...callbackRequest
+            };
+        } else if (authenticationRequest) {
+            logger.trace("useMsalAuthentication - acquireToken - Using request provided in the hook");
+            tokenRequest = {
+                ...authenticationRequest,
+                scopes: authenticationRequest.scopes || __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$common$2f$dist$2f$utils$2f$Constants$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["OIDC_DEFAULT_SCOPES"]
+            };
+        } else {
+            logger.trace("useMsalAuthentication - acquireToken - No request object provided, using default request.");
+            tokenRequest = {
+                scopes: __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$common$2f$dist$2f$utils$2f$Constants$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["OIDC_DEFAULT_SCOPES"]
+            };
+        }
+        if (!tokenRequest.account && account) {
+            logger.trace("useMsalAuthentication - acquireToken - Attaching account to request");
+            tokenRequest.account = account;
+        }
+        const getToken = async ()=>{
+            logger.verbose("useMsalAuthentication - Calling acquireTokenSilent");
+            return instance.acquireTokenSilent(tokenRequest).catch(async (e)=>{
+                if (e instanceof __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$common$2f$dist$2f$error$2f$InteractionRequiredAuthError$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["InteractionRequiredAuthError"]) {
+                    if (!interactionInProgress.current) {
+                        logger.error("useMsalAuthentication - Interaction required, falling back to interaction");
+                        return login(fallbackInteractionType, tokenRequest);
+                    } else {
+                        logger.error("useMsalAuthentication - Interaction required but is already in progress. Please try again, if needed, after interaction completes.");
+                        throw __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$error$2f$ReactAuthError$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ReactAuthError"].createUnableToFallbackToInteractionError();
+                    }
+                }
+                throw e;
+            });
+        };
+        return getToken().then((response)=>{
+            if (mounted.current) {
+                setResponse([
+                    response,
+                    null
+                ]);
+            }
+            return response;
+        }).catch((e)=>{
+            if (mounted.current) {
+                setResponse([
+                    null,
+                    e
+                ]);
+            }
+            throw e;
+        });
+    }, [
+        instance,
+        interactionType,
+        authenticationRequest,
+        logger,
+        account,
+        login
+    ]);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        const callbackId = instance.addEventCallback((message)=>{
+            switch(message.eventType){
+                case __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$browser$2f$dist$2f$event$2f$EventType$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["EventType"].LOGIN_SUCCESS:
+                case __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$browser$2f$dist$2f$event$2f$EventType$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["EventType"].SSO_SILENT_SUCCESS:
+                    if (message.payload) {
+                        setResponse([
+                            message.payload,
+                            null
+                        ]);
+                    }
+                    break;
+                case __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$browser$2f$dist$2f$event$2f$EventType$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["EventType"].LOGIN_FAILURE:
+                case __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$browser$2f$dist$2f$event$2f$EventType$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["EventType"].SSO_SILENT_FAILURE:
+                    if (message.error) {
+                        setResponse([
+                            null,
+                            message.error
+                        ]);
+                    }
+                    break;
+            }
+        });
+        logger.verbose(`useMsalAuthentication - Registered event callback with id: ${callbackId}`);
+        return ()=>{
+            if (callbackId) {
+                logger.verbose(`useMsalAuthentication - Removing event callback ${callbackId}`);
+                instance.removeEventCallback(callbackId);
+            }
+        };
+    }, [
+        instance,
+        logger
+    ]);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        if (shouldAcquireToken.current && inProgress === __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$browser$2f$dist$2f$utils$2f$BrowserConstants$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["InteractionStatus"].None) {
+            if (!isAuthenticated) {
+                shouldAcquireToken.current = false;
+                logger.info("useMsalAuthentication - No user is authenticated, attempting to login");
+                login().catch(()=>{
+                    // Errors are saved in state above
+                    return;
+                });
+            } else if (account) {
+                shouldAcquireToken.current = false;
+                logger.info("useMsalAuthentication - User is authenticated, attempting to acquire token");
+                acquireToken().catch(()=>{
+                    // Errors are saved in state above
+                    return;
+                });
+            }
+        }
+    }, [
+        isAuthenticated,
+        account,
+        inProgress,
+        login,
+        acquireToken,
+        logger
+    ]);
+    return {
+        login,
+        acquireToken,
+        result,
+        error
+    };
+}
+;
+ //# sourceMappingURL=useMsalAuthentication.js.map
+}),
+"[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-react/dist/components/MsalAuthenticationTemplate.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "MsalAuthenticationTemplate",
+    ()=>MsalAuthenticationTemplate
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$utils$2f$utilities$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-react/dist/utils/utilities.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$hooks$2f$useMsal$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-react/dist/hooks/useMsal.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$hooks$2f$useMsalAuthentication$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-react/dist/hooks/useMsalAuthentication.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$hooks$2f$useIsAuthenticated$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-react/dist/hooks/useIsAuthenticated.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$browser$2f$dist$2f$utils$2f$BrowserConstants$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-browser/dist/utils/BrowserConstants.mjs [app-ssr] (ecmascript)");
+/*! @azure/msal-react v3.0.23 2025-12-04 */ 'use strict';
+;
+;
+;
+;
+;
+;
+/*
+ * Copyright (c) Microsoft Corporation. All rights reserved.
+ * Licensed under the MIT License.
+ */ /**
+ * Attempts to authenticate user if not already authenticated, then renders child components
+ * @param props
+ */ function MsalAuthenticationTemplate({ interactionType, username, homeAccountId, localAccountId, authenticationRequest, loadingComponent: LoadingComponent, errorComponent: ErrorComponent, children }) {
+    const accountIdentifier = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useMemo"])(()=>{
+        return {
+            username,
+            homeAccountId,
+            localAccountId
+        };
+    }, [
+        username,
+        homeAccountId,
+        localAccountId
+    ]);
+    const context = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$hooks$2f$useMsal$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useMsal"])();
+    const msalAuthResult = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$hooks$2f$useMsalAuthentication$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useMsalAuthentication"])(interactionType, authenticationRequest, accountIdentifier);
+    const isAuthenticated = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$hooks$2f$useIsAuthenticated$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useIsAuthenticated"])(accountIdentifier);
+    if (msalAuthResult.error && context.inProgress === __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$browser$2f$dist$2f$utils$2f$BrowserConstants$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["InteractionStatus"].None) {
+        if (!!ErrorComponent) {
+            return __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].createElement(ErrorComponent, {
+                ...msalAuthResult
+            });
+        }
+        throw msalAuthResult.error;
+    }
+    if (isAuthenticated) {
+        return __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].createElement(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].Fragment, null, (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$utils$2f$utilities$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["getChildrenOrFunction"])(children, msalAuthResult));
+    }
+    if (!!LoadingComponent && context.inProgress !== __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$browser$2f$dist$2f$utils$2f$BrowserConstants$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["InteractionStatus"].None) {
+        return __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].createElement(LoadingComponent, {
+            ...context
+        });
+    }
+    return null;
+}
+;
+ //# sourceMappingURL=MsalAuthenticationTemplate.js.map
+}),
+"[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-react/dist/components/withMsal.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "withMsal",
+    ()=>withMsal
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$hooks$2f$useMsal$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-react/dist/hooks/useMsal.js [app-ssr] (ecmascript)");
+/*! @azure/msal-react v3.0.23 2025-12-04 */ 'use strict';
+;
+;
+/*
+ * Copyright (c) Microsoft Corporation. All rights reserved.
+ * Licensed under the MIT License.
+ */ /**
+ * Higher order component wraps provided component with msal by injecting msal context values into the component's props
+ * @param Component
+ */ const withMsal = (Component)=>{
+    const ComponentWithMsal = (props)=>{
+        const msal = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$hooks$2f$useMsal$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useMsal"])();
+        return __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].createElement(Component, {
+            ...props,
+            msalContext: msal
+        });
+    };
+    const componentName = Component.displayName || Component.name || "Component";
+    ComponentWithMsal.displayName = `withMsal(${componentName})`;
+    return ComponentWithMsal;
+};
+;
+ //# sourceMappingURL=withMsal.js.map
+}),
+"[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-react/dist/index.js [app-ssr] (ecmascript) <locals>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$MsalContext$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-react/dist/MsalContext.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$MsalProvider$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-react/dist/MsalProvider.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$components$2f$AuthenticatedTemplate$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-react/dist/components/AuthenticatedTemplate.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$components$2f$UnauthenticatedTemplate$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-react/dist/components/UnauthenticatedTemplate.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$components$2f$MsalAuthenticationTemplate$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-react/dist/components/MsalAuthenticationTemplate.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$components$2f$withMsal$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-react/dist/components/withMsal.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$hooks$2f$useMsal$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-react/dist/hooks/useMsal.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$hooks$2f$useAccount$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-react/dist/hooks/useAccount.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$hooks$2f$useIsAuthenticated$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-react/dist/hooks/useIsAuthenticated.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$hooks$2f$useMsalAuthentication$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-react/dist/hooks/useMsalAuthentication.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$uni$2f$COM682$2f$frontend$2f$fittrack$2d$frontend$2f$node_modules$2f40$azure$2f$msal$2d$react$2f$dist$2f$packageMetadata$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/uni/COM682/frontend/fittrack-frontend/node_modules/@azure/msal-react/dist/packageMetadata.js [app-ssr] (ecmascript)"); //# sourceMappingURL=index.js.map
+/*! @azure/msal-react v3.0.23 2025-12-04 */ 'use strict';
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+}),
+];
+
+//# sourceMappingURL=10412_88b33324._.js.map

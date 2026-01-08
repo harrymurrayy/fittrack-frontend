@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///Users/harry/Desktop/uni/COM682/frontend/fittrack-frontend/src/app/page.tsx"],"sourcesContent":["import Navigation from \"../components/Nagivation\";\nimport Link from \"next/link\";\n\nexport default function Home() {\n  return (\n    <div className=\"min-h-screen bg-gray-50\">\n      <Navigation />\n      <main className=\"max-w-7xl mx-auto px-4\">\n        <h1 className=\"text-4xl font-bold mb-4\">FitTrack</h1>\n        <p className=\"text-gray-600 mb-8\">Track your gym progress</p>\n        <Link\n          href=\"/workouts\"\n          className=\"bg-blue-500 text-white px-6 py-3 rounded hover:bg-blue-600\"\n        >\n          Go to Workouts\n        </Link>\n      </main>\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;;;;;;AACA;;;;AAEe,SAAS;IACtB,qBACE,8SAAC;QAAI,WAAU;;0BACb,8SAAC;;;;;0BACD,8SAAC;gBAAK,WAAU;;kCACd,8SAAC;wBAAG,WAAU;kCAA0B;;;;;;kCACxC,8SAAC;wBAAE,WAAU;kCAAqB;;;;;;kCAClC,8SAAC,0PAAI;wBACH,MAAK;wBACL,WAAU;kCACX;;;;;;;;;;;;;;;;;;AAMT"}}]
+}

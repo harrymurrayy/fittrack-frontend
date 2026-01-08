@@ -1,0 +1,7 @@
+(globalThis.TURBOPACK_CHUNK_LISTS || (globalThis.TURBOPACK_CHUNK_LISTS = [])).push({
+    script: typeof document === "object" ? document.currentScript : undefined,
+    chunks: [
+  "static/chunks/Desktop_uni_COM682_frontend_fittrack-frontend_bf687756._.js"
+],
+    source: "dynamic"
+});
