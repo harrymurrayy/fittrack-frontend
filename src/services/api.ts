@@ -2,6 +2,7 @@ import { PublicClientApplication } from "@azure/msal-browser";
 import { msalConfig, loginRequest } from "../lib/authConfig";
 
 const API_BASE =
+  process.env.NEXT_PUBLIC_API_URL ||
   "https://fittrack-api-hm-a4bde4egfffuczdz.italynorth-01.azurewebsites.net/api";
 
 // Initialize MSAL to get tokens
@@ -19,7 +20,7 @@ async function ensureInitialized() {
 // Helper to get access token
 async function getAccessToken(): Promise<string> {
   await ensureInitialized();
-  
+
   const accounts = msalInstance.getAllAccounts();
   if (accounts.length === 0) {
     throw new Error("No authenticated user");
@@ -40,7 +41,7 @@ async function getAccessToken(): Promise<string> {
 // Helper to get user ID from token
 async function getUserIdFromToken(): Promise<string> {
   await ensureInitialized();
-  
+
   const accounts = msalInstance.getAllAccounts();
   if (accounts.length === 0) {
     throw new Error("No authenticated user");
@@ -115,7 +116,7 @@ export const api = {
   }) {
     const token = await getAccessToken();
     const userId = await getUserIdFromToken();
-    
+
     const formData = new FormData();
     formData.append("file", photoData.file);
     formData.append("userId", userId);
