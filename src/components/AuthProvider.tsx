@@ -4,9 +4,8 @@ import { MsalProvider } from "@azure/msal-react";
 import { PublicClientApplication } from "@azure/msal-browser";
 import { ReactNode, useEffect, useState } from "react";
 
-// HARDCODE production URL - no dynamic detection
 const REDIRECT_URI =
-  "https://fittrack-frontend-bpdtekgzbpgwc8a0.italynorth-01.azurewebsites.net";
+  process.env.NEXT_PUBLIC_REDIRECT_URI || "http://localhost:3000";
 
 const msalInstance = new PublicClientApplication({
   auth: {

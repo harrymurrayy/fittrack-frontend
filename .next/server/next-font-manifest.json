@@ -1,22 +1,22 @@
 {
   "app": {
-    "[project]/Desktop/uni/COM682/frontend/fittrack-frontend/src/app/_not-found/page": [
+    "[project]/Desktop/uni/COM682/frontend/src/app/_not-found/page": [
       "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
       "static/media/797e433ab948586e-s.p.dbea232f.woff2"
     ],
-    "[project]/Desktop/uni/COM682/frontend/fittrack-frontend/src/app/page": [
+    "[project]/Desktop/uni/COM682/frontend/src/app/page": [
       "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
       "static/media/797e433ab948586e-s.p.dbea232f.woff2"
     ],
-    "[project]/Desktop/uni/COM682/frontend/fittrack-frontend/src/app/photos/page": [
+    "[project]/Desktop/uni/COM682/frontend/src/app/photos/page": [
       "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
       "static/media/797e433ab948586e-s.p.dbea232f.woff2"
     ],
-    "[project]/Desktop/uni/COM682/frontend/fittrack-frontend/src/app/signin/page": [
+    "[project]/Desktop/uni/COM682/frontend/src/app/signin/page": [
       "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
       "static/media/797e433ab948586e-s.p.dbea232f.woff2"
     ],
-    "[project]/Desktop/uni/COM682/frontend/fittrack-frontend/src/app/workouts/page": [
+    "[project]/Desktop/uni/COM682/frontend/src/app/workouts/page": [
       "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
       "static/media/797e433ab948586e-s.p.dbea232f.woff2"
     ]

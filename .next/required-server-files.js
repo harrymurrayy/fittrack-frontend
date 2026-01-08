@@ -140,8 +140,8 @@ self.__SERVER_FILES_MANIFEST={
       "isExperimentalCompile": false
     }
   },
-  "appDir": "/Users/harry/Desktop/uni/COM682/frontend/fittrack-frontend",
-  "relativeAppDir": "Desktop/uni/COM682/frontend/fittrack-frontend",
+  "appDir": "/Users/harry/Desktop/uni/COM682/frontend",
+  "relativeAppDir": "Desktop/uni/COM682/frontend",
   "files": [
     ".next/routes-manifest.json",
     ".next/server/pages-manifest.json",

@@ -1,0 +1,5 @@
+{
+  "appService.defaultWebAppToDeploy": "/subscriptions/f9a4bccf-08e8-4cec-9b6c-788a1e48e325/resourceGroups/appsvc_linux_italynorth/providers/Microsoft.Web/sites/fittrack-frontend",
+  "appService.deploySubpath": ".",
+  "appService.zipIgnorePattern": ["node_modules{,/**}", ".vscode{,/**}"]
+}
