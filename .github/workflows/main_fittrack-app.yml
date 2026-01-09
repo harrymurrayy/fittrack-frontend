@@ -24,6 +24,11 @@ jobs:
         run: npm ci
 
       - name: Build standalone Next.js
+        env:
+          NEXT_PUBLIC_REDIRECT_URI: ${{ secrets.NEXT_PUBLIC_REDIRECT_URI }}
+          NEXT_PUBLIC_API_URL: ${{ secrets.NEXT_PUBLIC_API_URL }}
+          NEXT_PUBLIC_CLIENT_ID: ${{ secrets.NEXT_PUBLIC_CLIENT_ID }}
+          NEXT_PUBLIC_TENANT_ID: ${{ secrets.NEXT_PUBLIC_TENANT_ID }}
         run: npm run build
 
       - name: Prepare standalone package
